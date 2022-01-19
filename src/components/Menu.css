@@ -1,0 +1,49 @@
+
+
+.list {
+
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+.items {
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    width: 40px;
+    border-width: 0px;
+    font-size: 40px;
+}
+
+
+@media screen and (min-width: 600px){
+ul{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.form-center input{
+    width: 400px;
+}
+
+.form-center button{
+    width: 100px;
+    margin-left: 20px;
+}
+
+}
